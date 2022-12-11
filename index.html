@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- Header and nav -->
+    <header class="container">
+      <a href="#"><h1>Ada Lovelace</h1></a>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- About me section -->
+      <section id="about-me" class="container">
+        <div class="about-me-left">
+          <h2>About Me</h2>
+          <p>
+            Hi! I'm Ada, Countess of Lovelace and am an English mathematician
+            and writer, chiefly known for my work on Charles Babbage's proposed
+            mechanical general-purpose computer, the Analytical Engine.
+          </p>
+          <p>
+            I am one of the first to recognize that machines have applications
+            beyond pure calculation, and to have published the first algorithm
+            intended to be carried out by such a machine.
+          </p>
+          <p>
+            In my free time I like to read about scientific developments,
+            mathematics, and computational mathematics. I also like to take my
+            chances of winning big.
+          </p>
+          <p>
+            Fun fact! I've been programing for
+            <span id="time"></span> seconds!
+          </p>
+        </div>
+        <div class="about-me-right">
+          <img src="./assets/ada-lovelace.jpeg" alt="Ada Lovelace" />
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section id="projects" class="container">
+        <h2>Projects</h2>
+
+        <!-- Project 1 -->
+        <div id="project1">
+          <h3>→ The first computer program</h3>
+          <figure id="fig1" href="#">
+            <img
+              src="./assets/Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+              alt="analytical machine"
+            />
+            <figcaption>
+              The world's first computer program for computing Bernoulli
+              numbers.
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- Project 2 -->
+        <div id="project2">
+          <h3>→ The Analytical Engine</h3>
+
+          <figure id="fig2" href="#">
+            <img
+              src="./assets/analyticalmachine_babbage_london.jpg"
+              alt="analytical machine"
+            />
+            <figcaption>
+              I helped Charles Babbage on topics ranging from math to
+              computation that helped the development of the Analytical Engine.
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- Project 3 -->
+        <div id="project3">
+          <h3>→ The Ada programming language</h3>
+
+          <figure id="fig3" href="#">
+            <img
+              src="./assets/220px-Ada_Mascot_with_slogan.svg.png"
+              alt="analytical machine"
+            />
+            <figcaption>
+              My work inspired the United States Department of Defense to name
+              their new programming language after me.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section id="skills" class="container">
+        <h2>Skills</h2>
+        <a href="#"><img src="./assets/aws.svg" alt="" /></a>
+        <a href="#"><img src="./assets/figma.svg" alt="" /></a>
+        <a href="#"><img src="./assets/git.svg" alt="" /></a>
+        <a href="#"><img src="./assets/github.svg" alt="" /></a>
+        <a href="#"><img src="./assets/js.svg" alt="" /></a>
+        <a href="#"><img src="./assets/node.svg" alt="" /></a>
+        <a href="#"><img src="./assets/react.svg" alt="" /></a>
+      </section>
+
+      <!-- Footer -->
+      <footer class="container">
+        <p>Made with <span>♥</span> in London</p>
+      </footer>
+    </main>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>

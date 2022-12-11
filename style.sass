@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@400;600;700&display=swap')
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+body
+    font-family: 'Open Sans', sans-serif
+    font-size: 16px
+
+h1,
+h2
+    font-family: 'Proza Libre', sans-serif        
+    font-size: 24px
+    font-weight: bold
+
+a
+    text-decoration: none
+    color: black
+    &:hover
+        color: blue
+
+img
+    max-width: 100%
+
+.container
+    width: 900px
+    margin: 0 auto    
+    padding: 16px 0
+
+// Header    
+header 
+    display: flex
+    justify-content: space-between
+    align-items: center
+    li
+        list-style: none
+        display: inline 
+        margin-left:   10px 
+        &:hover
+            color: blue
+        &:active
+            font-weight: bold
+@media screen and (max-width: 750px)
+    .container
+        width: 343px
+    header
+        flex-direction: column
+        align-items: flex-start
+        ul
+            margin-top: 10px
+        li
+            margin-left: 0
+            margin-right: 10px            
+// About me        
+#about-me
+    display: flex
+    justify-content: space-between
+
+.about-me-left
+    width: 70%
+    p
+        margin-top: 16px
+.about-me-right
+    display: flex
+    align-items: center
+    width: 30%            
+    margin-left: 20px
+    img
+        border-radius: 10px
+@media screen and (max-width: 1110px)
+    .container
+        width: 720px
+@media screen and (max-width: 750px)
+    .container
+        width: 343px
+    #about-me
+        flex-direction: column
+    .about-me-left
+        width: 100%         
+    .about-me-right
+        width: 300px
+        margin-left: 0
+        margin-top: 20px
+// Projects        
+#projects h2 
+    margin-bottom: 12px
+#project1,
+#project2,
+#project3    
+    cursor: pointer
+    margin-bottom: 5px
+    h3
+        font-size: 18px
+    img
+        width: 435px
+        margin-top: 10px
+    figcaption
+        color: gray         
+        padding: 16px 0       
+        font-size: 16px           
+    
+@media screen and (max-width: 750px)
+    #projects img
+        width: 191px
+
+// Skills
+#skills
+    padding: 16px 0
+    h2
+        margin-bottom: 12px
+    img
+        width: 32px
+        height: 32px
+        margin-right: 20px    
+
+// Footer    
+footer
+    text-align: center
+    span
+        color: red    
+
+// CONTACT PAGE        
+.contact
+    img
+        width: 32px
+        height: 32px
+        margin-right: 10px
+    p
+        margin: 16px 0    

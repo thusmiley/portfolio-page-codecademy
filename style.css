@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@400;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header li {
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+}
+
+header li:hover {
+  color: blue;
+}
+
+header li:active {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 343px;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header ul {
+    margin-top: 10px;
+  }
+  header li {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+#about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-me-left {
+  width: 70%;
+}
+
+.about-me-left p {
+  margin-top: 16px;
+}
+
+.about-me-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  margin-left: 20px;
+}
+
+.about-me-right img {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1110px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 343px;
+  }
+  #about-me {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-me-left {
+    width: 100%;
+  }
+  .about-me-right {
+    width: 300px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+#projects h2 {
+  margin-bottom: 12px;
+}
+
+#project1,
+#project2,
+#project3 {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+#project1 h3,
+#project2 h3,
+#project3 h3 {
+  font-size: 18px;
+}
+
+#project1 img,
+#project2 img,
+#project3 img {
+  width: 435px;
+  margin-top: 10px;
+}
+
+#project1 figcaption,
+#project2 figcaption,
+#project3 figcaption {
+  color: gray;
+  padding: 16px 0;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 750px) {
+  #projects img {
+    width: 191px;
+  }
+}
+
+#skills {
+  padding: 16px 0;
+}
+
+#skills h2 {
+  margin-bottom: 12px;
+}
+
+#skills img {
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer span {
+  color: red;
+}
+
+.contact img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.contact p {
+  margin: 16px 0;
+}
+/*# sourceMappingURL=style.css.map */
